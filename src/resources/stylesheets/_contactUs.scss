@@ -1,0 +1,44 @@
+#contactus{
+	    background-image: url(../images/contactus.jpg);
+    background-position-y: -822px;
+    min-height: 346px;
+    background-size: 140% auto;
+    background-repeat: no-repeat;
+    	
+    background-color: #000;
+    background-blend-mode: luminosity;
+    align-items: center;
+    display: flex;
+	.content{
+		
+		
+
+		h2{
+			
+			margin-bottom: 20px;
+			color: #fff;
+		}
+		input{
+			border:1px solid #fff;
+			padding:2px;
+			color:#fff;
+			width:220px;
+			height:30px;
+			line-height: 30px;
+			background:none;
+			font-size:14px;
+			outline:0;
+			margin-left:10px;
+		}
+		input::-webkit-input-placeholder {
+			color:#fff;
+		}
+		button{
+			display: block;
+			outline:0;
+			border:0;
+			min-width:210px;
+			margin: 20px auto;
+		}
+	}
+}

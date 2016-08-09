@@ -1,0 +1,22 @@
+%buttons{
+	border:1px solid #dd4400;
+	background:#ff4e00;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:12px;
+	padding:10px 25px;;
+	text-align: center;
+	outline:0;
+	cursor: pointer;
+	&:hover{
+		background:#fbe85a;
+		color:#000;
+		border:1px solid #000;
+		transition: background-color 1s ease-out;
+	}
+
+}
+
+.btn{
+	@extend %buttons;
+}

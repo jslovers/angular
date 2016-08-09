@@ -1,0 +1,46 @@
+#home{
+	//background:#eac602;
+	background:#000;
+	margin-top:100px;
+	padding-bottom:50px;
+	min-height: 500px;
+	align-items: center;
+	display: flex;
+	background-image: url(../images/three.jpg);
+    background-position-y: -731px;
+    background-size: 140% auto;
+    background-repeat: no-repeat;
+  // background-blend-mode: luminosity;
+	.content{
+		
+		padding:10px;
+		
+
+		h2{
+			font-size:56px;
+			font-weight:700;
+			margin-top:80px;
+			color:#e8c502;
+			    text-shadow: 1px 2px #000;
+		}
+		p 
+		{
+			margin-bottom: 50px;
+			margin-top:10px;
+		a{
+			color:#fff;
+			padding:0 10px;
+
+		}
+	}
+		.btn{
+			@extend %buttons;
+			text-decoration:none;
+			min-width: 100px;
+			
+			display: inline-block;
+			
+		}
+
+	}
+}

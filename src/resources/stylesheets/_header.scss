@@ -1,0 +1,19 @@
+header{
+	overflow:hidden;
+	background: #fbe85a;
+	border-bottom:1px solid #eee;
+	.logo{
+		float:left;
+		img{
+			width:180px;
+		} 
+		a {
+			    font-size: 18px;
+				margin: 20px 0 0;
+				display: block;
+				text-decoration: none;
+				font-weight: bold;
+				color : black;
+		}
+	}
+}

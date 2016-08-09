@@ -1,0 +1,35 @@
+	
+footer{
+	padding-bottom:20px;
+	.content{
+		
+
+	}
+	nav {
+	color:#ccc;
+		ul {
+			margin:20px 0;
+			li{
+				list-style:none;
+				display: inline-block;
+				font-size:14px;
+				margin-left:10px;
+
+				a{
+					color:#ccc;
+					text-decoration: none;
+					padding:10px;
+					display: inline-block;
+					&:hover{
+						text-decoration:underline;
+						color: #999;
+						transition: color 1s;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+
